@@ -3,7 +3,7 @@ resource "random_pet" "name" {
  separator = "-"
 }
 
-resource "null_resource" "sleeperX" {
+resource "null_resource" "sleeperXY" {
   provisioner "local-exec" {
     command = "sleep 4"
   }
